@@ -1,0 +1,10 @@
+```
+pd
+np
+plt
+sns
+PyMuPDF
+sns
+os
+PyPDF2
+```
