@@ -7,4 +7,5 @@ PyMuPDF
 sns
 os
 PyPDF2
+tabular 
 ```
