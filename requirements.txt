@@ -9,5 +9,6 @@ os
 PyPDF2
 tabula-py
 jpype1
-
+pdfplumber
+XlsxWriter
 ```
