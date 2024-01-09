@@ -11,4 +11,5 @@ tabula-py
 jpype1
 pdfplumber
 XlsxWriter
+camelot
 ```
