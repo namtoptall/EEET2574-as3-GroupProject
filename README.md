@@ -1,7 +1,5 @@
-## The repository for as3
-the repository for technical task for as3 - bigdata
-- technology : sklearn lib and chatgpt ^^ 
-
-## some documentation (if u guys want to help he with the extracted features)
-<https://tabula-py.readthedocs.io/en/latest/tabula.html>
-### The data are placed in ../clean/data
+## Big Data for Engineering assignment 3 repository
+### problem to solve : Identify regions with similar economic, deforestation and weather patterns --> tailored policy recommendation
+- models to use: clustering models such as k-means Clustering or Hierarchical clustering 
+- 
+#### The data are placed in ../clean/data
