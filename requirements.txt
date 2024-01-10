@@ -1,8 +1,7 @@
-```
-pd
-np
-plt
-sns
+pandas
+nt
+snp
+pls
 PyMuPDF
 sns
 os
@@ -12,4 +11,3 @@ jpype1
 pdfplumber
 XlsxWriter
 camelot
-```
