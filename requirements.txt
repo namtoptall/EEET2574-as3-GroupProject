@@ -1,11 +1,7 @@
 ```
-pd
-np 
-plt
-sns
-os
-sys
-fitz
-re
+pandas
+numpy
+os-sys==0.0.2
+PyMuPDF
 PyPDF2
 ```
