@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  openweathermap:
+    container_name: openweathermap
+    build: .
+    environment:
+      KAFKA_BROKER_URL: broker:29092
+      TOPIC_NAME: openweather
+      SLEEP_TIME: 90
+
+networks:
+  default:
+    external:
+      name: streaming_data_default
