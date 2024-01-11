@@ -57,4 +57,4 @@ The objective of this project is to identify regions with similar economic, defo
 Our data is organized in the "../clean/data/" directory:
 
 - Raw deforestation dataset: "../clean/data/LoveWaterdata.xlsx"
-- Merged forest data frame, including years, provinces, carbon emissions, and tc_loss_ha: "../clean/data/deforest_carbons"
+
