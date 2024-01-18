@@ -2,40 +2,43 @@
 ## Problem Statement : 
 The objective of this project is to identify regions with similar economic, deforestation, and weather patterns in order to provide tailored policy recommendations.
 
-## Technology/Infrastructure/Models
+# Technology/Infrastructure/Models
 
-### Technology Stack
+## Technology Stack
 
-#### Programming Languages
-- Python for data analysis, manipulation, and visualization.
-- MongoDB for database operations.
+### Programming Languages
+- **Python:** Utilized for data analysis, manipulation, and visualization.
+- **MongoDB:** Employed for efficient and scalable database operations.
 
-#### Libraries and Frameworks
-- Pandas for data manipulation and analysis.
-- Matplotlib and Seaborn for data visualization.
-- NumPy for numerical computations.
-- Flask for building the web application (if applicable).
+### Libraries and Frameworks
+- **Pandas:** Used for comprehensive data manipulation and analysis.
+- **NumPy:** Essential for high-performance numerical computations.
+- **Matplotlib and Seaborn:** Employed for creating insightful data visualizations.
+- **Pymongo:** Facilitates MongoDB operations.
+- **Scikit-learn:** Utilized for machine learning tasks, including model training and evaluation.
+- **Boto3:** AWS SDK for Python, enabling interaction with AWS services.
+- **SageMaker:** Leveraged for deploying and managing machine learning models on AWS.
+- **os and system:** Python libraries for system operations.
+- **Fitz:** Utilized for handling PDF documents in the data processing pipeline.
 
-### Infrastructure
+## Infrastructure
 
-#### Cloud Platform
-- Amazon Web Services (AWS) for cloud computing and storage.
+### Cloud Platform
+- **Amazon Web Services (AWS):** Chosen for its robust cloud computing and storage capabilities.
+  - **EC2:** Used for scalable compute capacity.
+  - **SageMaker:** Employed for machine learning model hosting and management.
 
-#### Database
-- MongoDB for non-relational database management.
+### Database
+- **MongoDB:** Selected for its flexibility as a non-relational database, suitable for handling diverse data types.
 
-#### Streaming Data Processing
-- Apache Kafka for handling real-time streaming data.
+### Streaming Data Processing
+- **Apache Kafka (Confluent version):** Implemented for handling real-time streaming data, ensuring efficient and reliable processing.
 
-### Models
+## Models
 
-#### Clustering Algorithm
-- K-Means clustering for identifying regions with similar economic, deforestation, and weather patterns.
-
-#### Machine Learning Models
-- Linear Regression or Time Series Analysis for predicting future economic trends.
-- Decision Trees or Random Forest for analyzing deforestation patterns.
-
+### Decision Tree Regression
+- **Purpose:** Analyzing and predicting economic trends.
+- **Description:** Decision Tree Regression model employed for its interpretability and effectiveness in capturing non-linear relationships within the data.
 
 
 
@@ -54,7 +57,7 @@ The objective of this project is to identify regions with similar economic, defo
 
 
 ## Data Storage
-Our data is organized in the "../clean/data/" directory:
-
-- Raw deforestation dataset: "../clean/data/LoveWaterdata.xlsx"
+Our raw data is organized in the "/data/raw" directory:
+- Raw deforestation dataset: "/data/raw/LoveWaterdata.xlsx"
+- Raw Vietnam economic dataset: "/data/raw/socio-economic-data-of-63-provinces-and-centrally-run-cities-2015-2021.pdf"
 
