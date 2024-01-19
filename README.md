@@ -61,3 +61,6 @@ Our raw data is organized in the "/data/raw" directory:
 - Raw deforestation dataset: "/data/raw/LoveWaterdata.xlsx"
 - Raw Vietnam economic dataset: "/data/raw/socio-economic-data-of-63-provinces-and-centrally-run-cities-2015-2021.pdf"
 
+
+## MongoDB Chart Visualization
+Link: https://charts.mongodb.com/charts-bigdata-iewuu/public/dashboards/43633942-1da5-4522-8d1a-d5942341d20f
